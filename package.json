@@ -1,0 +1,11 @@
+{
+  "name": "dsh-autofix",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DeepSeek Harness desktop host-package shim generator and auto-repair launcher",
+  "type": "commonjs",
+  "scripts": {
+    "install-shortcut": "powershell -NoProfile -ExecutionPolicy Bypass -File ./install-shortcut.ps1",
+    "uninstall-shortcut": "powershell -NoProfile -ExecutionPolicy Bypass -File ./uninstall-shortcut.ps1"
+  }
+}

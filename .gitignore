@@ -1,0 +1,9 @@
+config.cmd
+*.log
+*.tmp
+*.bak
+_*.cmd
+.DS_Store
+Thumbs.db
+node_modules/
+backups/
